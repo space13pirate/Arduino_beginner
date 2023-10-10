@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "author": "Anastasia",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 0.6, "left": 124.2, "attrs": {} },
+    {
+      "type": "wokwi-tm1637-7segment",
+      "id": "sevseg1",
+      "top": 57.56,
+      "left": -165.77,
+      "attrs": { "color": "red" }
+    }
+  ],
+  "connections": [
+    [ "sevseg1:CLK", "uno:2", "green", [ "h48", "v-144", "h303.1" ] ],
+    [ "sevseg1:DIO", "uno:3", "blue", [ "h76.8", "v-124.8", "h264.8" ] ],
+    [ "sevseg1:VCC", "uno:5V", "red", [ "h76.8", "v124.8", "h197.8" ] ],
+    [ "sevseg1:GND", "uno:GND.3", "black", [ "h48", "v144", "h245.6" ] ]
+  ],
+  "dependencies": {}
+}
