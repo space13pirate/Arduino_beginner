@@ -1,0 +1,25 @@
+PROJECT: https://wokwi.com/projects/379427443143016449
+AUTHOR:  Anastasia Cheremisova
+https://github.com/space13pirate
+
+Eng: Description of the smart home project "Opening/closing the door with a password."
+- Welcome message – when the program starts, a welcome message is displayed on the LCD display. "Welcome to the Smart Home."
+- The door is initially closed. We imagine that we are approaching the closed door of a house.
+- Opening and closing the door – the access code is used to both open and close the door. If the correct code is successfully entered, the door opens, and if the same code is entered again, it closes. This ensures safety and ease of use.
+- Feedback – The LCD display provides feedback to the user by displaying symbols associated with the door status (closed or open) and password prompts.
+- Protection against unauthorized access - if an incorrect password is entered, the program reports “Access denied” and does not perform actions to open or close the door. This provides protection against unauthorized access.
+- Password reset – the user can reset the entered password by pressing the “*” key. After the reset, the system waits for a new password to be entered.
+- The default password is 0000.
+- Possibility of changing the password - to do this, press the "A" key and enter the old password correctly. Confirmation of the new password has been implemented.
+A keypad, two servos, and a 16x2 LCD display (I2C) are used.
+
+Рус: Описание проекта умного дома "Открытие/закрытие двери по паролю".
+- Приветственное сообщение – при запуске программы на LCD-дисплее отображается приветственное сообщение. «Welcome to the Smart Home».
+- Изначально дверь закрыта. Представляем, что подходим к закрытой двери дома.
+- Открытие и закрытие двери – код доступа используется как для открытия, так и для закрытия двери. При успешном вводе правильного кода дверь открывается, а при повторном вводе того же кода – закрывается. Это обеспечивает безопасность и удобство использования.
+- Обратная связь – LCD-дисплей предоставляет обратную связь пользователю, отображая символы, связанные с состоянием двери (закрыта или открыта) и запросы для ввода пароля.
+- Защита от несанкционированного доступа – если введён неверный пароль, программа сообщает «Access denied» и не выполняет действий по открытию или закрытию двери. Это обеспечивает защиту от несанкционированного доступа.
+- Сброс пароля – пользователь может сбросить вводимый пароль, нажав клавишу "*". После сброса система ожидает ввода нового пароля.
+- По умолчанию пароль установлен 0000.
+- Возможность смены пароля – для этого нужно нажать на клавишу "A" и правильно ввести старый пароль. Реализовано подтверждение нового пароля.
+Используются кейпад, два сервопривода, LCD-дисплей 16х2 (I2C).

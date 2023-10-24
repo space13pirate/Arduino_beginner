@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "author": "Anastasia",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-arduino-uno",
+      "id": "uno1",
+      "top": 209.600000000114,
+      "left": 29.600000000114,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-membrane-keypad",
+      "id": "keypad1",
+      "top": 149.600000000114,
+      "left": 369.600000000114,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-servo",
+      "id": "servo1",
+      "top": -126.8,
+      "left": 0,
+      "attrs": { "hornColor": "black" }
+    },
+    {
+      "type": "wokwi-lcd1602",
+      "id": "lcd1",
+      "top": -22.4,
+      "left": 351.2,
+      "attrs": { "pins": "i2c" }
+    },
+    {
+      "type": "wokwi-servo",
+      "id": "servo2",
+      "top": 26.8,
+      "left": 0,
+      "attrs": { "hornColor": "black" }
+    }
+  ],
+  "connections": [
+    [ "uno1:5V", "servo1:V+", "red", [ "v30.9", "h-266.4", "v-499.3" ] ],
+    [ "uno1:GND.1", "servo1:GND", "black", [ "v-26.6", "h-231.5", "v-268.8" ] ],
+    [ "uno1:A3", "keypad1:C1", "brown", [ "v116", "*", "h0", "v0" ] ],
+    [ "uno1:A2", "keypad1:C2", "gray", [ "v120", "*", "h0", "v0" ] ],
+    [ "uno1:A1", "keypad1:C3", "orange", [ "v124", "*", "h0", "v0" ] ],
+    [ "uno1:A0", "keypad1:C4", "pink", [ "v128", "*", "h0", "v0" ] ],
+    [ "uno1:5", "keypad1:R1", "blue", [ "v-34", "h96", "*", "v12" ] ],
+    [ "uno1:4", "keypad1:R2", "green", [ "v-30", "h80", "*", "v16" ] ],
+    [ "uno1:3", "keypad1:R3", "purple", [ "v-26", "h64", "*", "v20" ] ],
+    [ "uno1:2", "keypad1:R4", "gold", [ "v-22", "h48", "*", "v24" ] ],
+    [ "lcd1:GND", "uno1:GND.2", "black", [ "h-48", "v-67.2", "h422.4", "v662.4", "h-530.5" ] ],
+    [ "lcd1:VCC", "uno1:5V", "red", [ "h-57.6", "v-86.3", "h441.6", "v681.4", "h-549.6" ] ],
+    [ "lcd1:SDA", "uno1:A4", "green", [ "h-38.4", "v-76.6", "h403.2", "v643.2", "h-444.4" ] ],
+    [ "lcd1:SCL", "uno1:A5", "green", [ "h-28.8", "v-76.5", "h384", "v624", "h-425.3" ] ],
+    [ "servo2:GND", "uno1:GND.1", "black", [ "h-38.4", "v86.4", "h183.5" ] ],
+    [ "servo2:V+", "uno1:5V", "red", [ "h-28.8", "v336.1", "h218.4" ] ],
+    [ "servo2:PWM", "uno1:9", "orange", [ "h-19.2", "v57.8", "h211.8" ] ],
+    [ "servo1:PWM", "uno1:10", "orange", [ "h-67.2", "v240.2", "h250.3" ] ]
+  ],
+  "dependencies": {}
+}

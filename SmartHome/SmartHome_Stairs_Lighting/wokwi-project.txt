@@ -1,0 +1,12 @@
+PROJECT: https://wokwi.com/projects/379366705103728641
+AUTHOR:  Anastasia Cheremisova
+https://github.com/space13pirate
+
+Eng: Description of the smart home project "Staircase lighting".
+
+Control of four LEDs on a conditional staircase using an ultrasonic sensor when an object approaches or moves away. If an object approaches the ultrasonic sensor, it is necessary to light the LEDs one by one: when it reaches 1 m, the 1st LED lights up, when it reaches 2 m, the 2nd LED lights up, etc., if the object moves away from the starting location, then the LED goes out, if the object the LED stays still and does not go out.
+
+Рус: Описание проекта умного дома "Освещение лестницы".
+
+Управление четырьмя светодиодами на условной лестнице, используя ультразвуковой датчик при приближении или отдалении объекта. Если объект приближается к ультразвуковому датчику, необходимо поочерёдно зажигать светодиоды: при достижении 1 м зажигается 1-й светодиод, при достижении 2 м зажигается 2-й светодиод и т.д., если объект отдаляется от начального места, то светодиод потухает, если объект стоит на месте светодиод не гаснет.
+

@@ -1,0 +1,11 @@
+PROJECT: https://wokwi.com/projects/379374334442918913
+AUTHOR:  Anastasia Cheremisova
+https://github.com/space13pirate
+
+Eng: Description of the smart home project "Doorbell".
+When the button is pressed, the doorbell melody is played. The melody can be changed.
+A buzzer and a standard button are used.
+
+Рус: Описание проекта умного дома "Дверной звонок".
+При нажатии кнопки воспроизводится мелодия дверного звонка. Мелодию можно менять.
+Используется пьезоизлучатель и стандартная кнопка.
