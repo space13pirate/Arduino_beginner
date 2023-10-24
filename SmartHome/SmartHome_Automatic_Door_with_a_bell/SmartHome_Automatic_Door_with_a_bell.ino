@@ -443,7 +443,8 @@ void loop() {
       memset(enteredCode, 0, sizeof(enteredCode)); // Reset entered code (Сброс введенного кода)
       lcd.clear();
       lcd.setCursor(0, 0);
-      lcd.print("Enter code:");
+      byte doorSymbol = doorOpen ? lcd.write(byte(1)) : lcd.write(byte(0));
+      lcd.print(" Enter code:");
     } else if (key == 'A') {
       setNewCode();
     } else if (key == 'C') {
