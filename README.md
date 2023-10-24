@@ -3,52 +3,55 @@
   <img src="https://media.giphy.com/media/Ssr2HaSSqw8ggmLHUO/giphy.gif" width="200"/>
 </div>
 
-<!--- Название проекта -->
+<!--- Название репозитория -->
 <div id="header" align="center">
   <h1> Arduino_beginner</h1>
 </div>
 
-<!--- Создатели проекта -->
-### :computer: Project creators :
+<!--- Создатель репозитория -->
+### :pen: Repository author :
 
-- :woman_technologist: <a href="https://github.com/space13pirate" title="space13pirate">Anastasia</a> and <a href="https://github.com/Arriannaa" title="Arriannaa">Arina</a>, students of the Kazan State Power Engineering University (KSPEU)
+- :woman_technologist: <a href="https://github.com/space13pirate" title="space13pirate">Anastasia Cheremisova</a>
 
 - :round_pushpin: Kazan, Russia
 
-- :mag_right: Where to find us:
+- :mag_right: How to contact me:
 <div id="badges" align="center">
   <a href="https://t.me/space13pirate">
-    <img src="https://img.shields.io/badge/Anastasia%20in%20Telegram-27A3E2?style=for-the-badge&logo=Telegram&logoColor=White" alt="Anastasia's Telegram Badge"/>
+    <img src="https://img.shields.io/badge/Telegram-27A3E2?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Badge"/>
   </a>
-  <a href="https://t.me/Arrriannaa">
-    <img src="https://img.shields.io/badge/Arina%20in%20Telegram-27A3E2?style=for-the-badge&logo=Telegram&logoColor=White" alt="Arina's Telegram Badge"/>
+  <a href="https://discord.gg/RHH9qHZJ">
+      <img src="https://img.shields.io/badge/Discord-rgb(88,101,242)?style=for-the-badge&logo=discord&logoColor=white" alt="Discord Badge"/>
+  </a>
+  <a href="https://vk.com/north13anastasia">
+    <img src="https://img.shields.io/badge/vk-0077FF?style=for-the-badge&logo=VK&logoColor=white" alt="VK Badge"/>
   </a>
 </div>
 
-<!--- Описание проекта -->
-### :computer: About the project :
+<!--- Описание репозитория -->
+### :open_file_folder: About this repository :
 
 <div id="info" align="justify">
   <p style = "text-indent: 50px;">
-  The "Airport administrator's workstation" software package is designed to automate and manage operations and tasks related to the administration of a small airport and contains the following data:
-   
-   - monitoring and management of airport resources (aircraft and flights);
-   - possibility of selling tickets of different categories;
-   - providing the ability to generate reports and analyze data, including statistics on passenger flows.
+  This repository contains entry-level projects for Arduino.
   </p>
 </div>
 
-<!--- Гифка -->
-<div id="gif" align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmF5anFkNWRxaWRueDZ3OTdzbDgwMnMyamNzbW41eTI3NHFsdXJqbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/E4ISn3QdfIEeGJ9IrK/giphy.gif" height = "100" vspace = "100"/>
+<!--- Ссылки на другие платформы -->
+### :eyes: Sites where projects were created :
+
+<div id="badges" align="center">
+  <a href="https://wokwi.com/">
+    <img src="https://img.shields.io/badge/Wokwi-1A1A1A?style=for-the-badge&logo=arduino&logoColor=white" alt="Wokwi Badge"/>
+  </a>
+  <a href="https://www.tinkercad.com/dashboard">
+    <img src="https://img.shields.io/badge/Tinkercad-rgb(251,71,37)?style=for-the-badge&logo=arduino&logoColor=white" alt="Tinkercad Badge"/>
+  </a>
 </div>
 
 <!--- Языки и инструменты -->
 ### :hammer_and_wrench: Languages and Tools :
 
-<div id="devicon">
-  <img src="https://svgshare.com/i/xwp.svg" title="PHP" alt="PHP" width="75" height="75" hspace="5" vspace = "200"/>&nbsp;
-  <img src="https://svgshare.com/i/xwB.svg" title="HTML" alt="HTML" width="75" height="75" hspace="5" vspace = "200"/>&nbsp;
-  <img src="https://svgshare.com/i/xy4.svg" title="CSS" alt="CSS" width="75" height="75" hspace="5" vspace = "200"/>&nbsp;
-  <img src="https://svgshare.com/i/xyD.svg" title="JavaScript" alt="JavaScript" width="75" height="75" hspace="5" vspace = "200"/>&nbsp;
+<div id="devicon" align="center">
+  <img src="https://svgshare.com/i/yx7.svg" title="Arduino" alt="Arduino" width="75" height="75" hspace="5" vspace = "5"/>&nbsp;
 </div>
