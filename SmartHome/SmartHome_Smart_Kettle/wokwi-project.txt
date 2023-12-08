@@ -1,0 +1,66 @@
+PROJECT: https://wokwi.com/projects/383512459724321793
+AUTHOR:  Anastasia Cheremisova
+https://github.com/space13pirate
+
+Eng: "The Smart Kettle" project is an example of using Arduino to create a smart device that can be used to prepare hot drinks, providing control and monitoring of the temperature in the process.
+
+MAIN COMPONENTS OF THE PROJECT
+
+• Control button
+- Connected button to turn the kettle on and off.
+- Implemented a button debounce mechanism.
+
+• Temperature sensor DHT22
+- The DHT library is used to interact with the DHT22 temperature sensor.
+- The measured temperature is displayed on the TFT display.
+- If the temperature exceeds 70 °C, a short melody is played.
+
+• NeoPixel LED Ring
+- Uses Adafruit NeoPixel library to control the NeoPixel LED ring.
+- LEDs change color depending on the current temperature inside the kettle (from 0 to 30 °C - blue, from 30 to 70 °C - orange, from 70 to 80 °C - red).
+
+• Piezo emitter (Buzzer)
+- The piezo emitter is used to play a short melody at high temperatures (more than 70 °C).
+
+• TFT Display
+- Uses Adafruit ILI9341 library to control the TFT display.
+- The display displays information about the status of the kettle (on/off) and the current temperature.
+
+PROJECT FUNCTIONALITY
+
+- When you press the button, the kettle turns on or off.
+- When the kettle is turned on, it measures the temperature inside and updates the information on the display.
+- The LED ring changes color depending on the temperature level.
+- At high temperatures (more than 70 °C), a melody is played.
+
+
+Рус: Проект "Умный чайник" представляет собой пример применения Arduino для создания умного устройства, которое можно использовать для приготовления горячих напитков, обеспечивая контроль и мониторинг температуры в процессе.
+
+ОСНОВНЫЕ КОМПОНЕНТЫ ПРОЕКТА
+
+• Кнопка управления
+- Подключена кнопка для включения и выключения чайника.
+- Реализован механизм подавления дребезга кнопки.
+
+• Датчик температуры DHT22
+- Используется библиотека DHT для взаимодействия с датчиком температуры DHT22.
+- Измеренная температура отображается на TFT-дисплее.
+- Если температура превышает 70 °C, воспроизводится короткая мелодия.
+
+• NeoPixel LED Ring
+- Используется библиотека Adafruit NeoPixel для управления светодиодным кольцом NeoPixel.
+- Светодиоды меняют цвет в зависимости от текущей температуры внутри чайника (от 0 до 30 °C – синий цвет, от 30 до 70 °C – оранжевый, от 70 до 80 °C – красный).
+
+• Пьезоизлучатель (Buzzer)
+- Пьезоизлучатель используется для воспроизведения короткой мелодии при высокой температуре (больше 70 °C).
+
+• TFT-дисплей (TFT Display)
+- Используется библиотека Adafruit ILI9341 для управления TFT-дисплеем.
+- Дисплей отображает информацию о состоянии чайника (включён/выключен) и текущей температуре.
+
+ФУНКЦИОНАЛЬНОСТЬ ПРОЕКТА
+
+- При нажатии на кнопку чайник включается или выключается.
+- Включённый чайник измеряет температуру внутри и обновляет информацию на дисплее.
+- Светодиодное кольцо меняет цвет в зависимости от уровня температуры.
+- При высокой температуре (больше 70 °C) проигрывается мелодия.
